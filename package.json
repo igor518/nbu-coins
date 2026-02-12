@@ -1,0 +1,33 @@
+{
+  "name": "nbu-watcher",
+  "version": "1.0.0",
+  "description": "NBU coin availability monitor with Telegram notifications",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "keywords": [
+    "nbu",
+    "coin",
+    "availability",
+    "telegram",
+    "notifications",
+    "monitor"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@2captcha/captcha-solver": "^1.3.2",
+    "cheerio": "^1.0.0-rc.12",
+    "dotenv": "^16.3.1",
+    "node-fetch": "^3.3.2",
+    "playwright": "^1.58.2",
+    "playwright-extra": "^4.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

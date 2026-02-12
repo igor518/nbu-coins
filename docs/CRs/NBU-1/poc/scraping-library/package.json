@@ -1,0 +1,15 @@
+{
+  "name": "nbu-watcher-poc-scraping",
+  "version": "1.0.0",
+  "description": "PoC for testing scraping library against coins.bank.gov.ua",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "static": "node static.js"
+  },
+  "dependencies": {
+    "playwright": "^1.48.0",
+    "node-fetch": "^3.3.2",
+    "cheerio": "^1.0.0-rc.12"
+  }
+}
